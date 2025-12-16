@@ -13,7 +13,7 @@ happyexit() {
   echo "  talosctl cluster create                  # install a local test cluster"
   echo "  talosctl dashboard                       # If you have created a cluster, launch the dashboard"
   echo ""
-  echo "Looking for more? Visit https://talos.dev/latest"
+  echo "For documentation visit https://katamarina.ru/docs
   echo ""
   exit 0
 }
@@ -41,7 +41,8 @@ validate_checksum() {
   echo "Checksum valid."
   return 0
 }
-
+echo "Welcome to Katamarina installer!"
+echo ""
 OS=$(uname -s)
 arch=$(uname -m)
 cli_arch=""
